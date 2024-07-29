@@ -37,11 +37,11 @@ The configuration file `Config/write_labels.yaml` includes several parameters;
 - `Range`: Specimen number range (used if `sequential_labels` is true)
 - `Labels_list`: List of labels (used if `sequential_labels` is false)
 
-!! always check the scale bar manually with a ruler after printing, printing settings can adjust the scaling
+!! always check the scale bar manually with a ruler after printing, printing settings can adjust the scaling !!
 ## Generate labels
 
 To generate the labels, execute the following command to run the python script:
 
-python write_labels.py
+`python write_labels.py`
 
 This will read the configuration from write_labels.yaml, generate the labels according to the specified parameters, and save the output as a PDF file.
