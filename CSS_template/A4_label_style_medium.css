@@ -1,0 +1,64 @@
+/* here for growth labels */
+
+ @page {
+    width: 210mm;
+    height: 297mm;
+}
+
+.print-area {
+    border: 0.1mm solid black; 
+    width: 52.3mm;
+    height: 20.7mm;
+    float:left;
+}
+.project_label {
+  font-family: Verdana;
+  font-weight: normal;
+  display: inline-block;
+  position: absolute;
+  right: 1mm ;
+  margin-top: 1.5mm;
+  margin-left: 2.4mm;
+  font-size: 10px;
+}
+.qrcode {
+  height: 13mm;
+  display: inline-block;
+  vertical-align: middle;
+  image-rendering: pixelated;
+  margin-top: 2.5mm;
+  margin-left: 2.5mm;
+}
+.sample_label {
+  font-family: Verdana;
+  font-size: 25px;
+  vertical-align: middle;
+  position: absolute;
+  margin-top: 6mm;
+  margin-right: 5mm;
+  margin-left: 1mm;
+}
+
+.square {
+  width: 10.4mm;
+  height: 2.5mm;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+  position: absolute;
+  bottom: 0; 
+}
+.black {
+  background-color: black;
+  left: 10mm;
+}
+
+.white {
+  background-color: white;
+  left: 20.4mm; 
+}
+
+.black_2 {
+  background-color: black;
+  left: 30.8mm;
+} 

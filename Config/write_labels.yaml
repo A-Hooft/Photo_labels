@@ -1,0 +1,41 @@
+# config of labels
+
+#__________________________
+label_size: xsmall            
+# Size of labels (xsmall/small/medium/large/custom) 
+# small = 208(8 * 26) per page, 
+# small = 80(5 * 16) per page, 
+# medium = 60(4 * 15) per page, 
+# large = 20(2 * 10) per page
+
+qr_code: true
+scale_bar: true
+
+
+#__________________________
+project_name: "Project title"
+#project title, small labels max 15 characters, medium max 25 characters, large max 34 characters
+
+filename: "xsmall"
+#pdf filename saved in folder 'label_sheets'
+
+
+#__________________________
+sequential_labels: true
+#if true will create labels with prefix and or suffix and numerical range
+#if false include labels_list below. 
+
+Prefix: "ABC" 
+#prefix for all specimen numbers, if empty no prefix, if sequential numbers is true
+
+Suffix: "" 
+#suffix for all specimen numbers, if empty no prefix, if sequential numbers is true
+
+Range: "1-230" 
+#specimen number range as 'start-end', if empty no prefix, if sequential numbers is true
+
+
+
+Labels_list: ['ABC', 'DEF', 'GHI']
+#list of strings
+#__________________________

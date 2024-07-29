@@ -1,0 +1,62 @@
+@page {
+    width: 210mm;
+    height: 297mm;
+}
+
+.print-area {
+  border: 0.1mm solid black;
+  width: 25.9mm;         
+  height: 11.2mm;         
+ float:left;
+  position: relative;
+}
+
+.project_label {
+font-family: Verdana;
+font-weight: normal;
+display: inline-block;
+position: absolute;
+right: 1mm ;
+margin-top: 1mm;
+margin-left: 2mm;
+font-size: 6px;
+}
+
+.qrcode {
+height: 7mm;
+display: inline-block;
+vertical-align: middle;
+image-rendering: pixelated;
+margin-top: 1mm;
+margin-left: 1mm;
+}
+
+.sample_label {
+font-family: Verdana;
+font-size: 14px;
+vertical-align: middle;
+position: absolute;
+margin-top: 3mm;
+margin-right: 5mm;
+margin-left: 0mm;
+}
+
+.square {
+  width: 10.4mm;
+  height: 1.5mm;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+  position: absolute;
+  bottom: 0; 
+}
+
+.black {
+  background-color: black;
+  left: 2.5mm;
+}
+
+.white {
+  background-color: white;
+  left: 12.9mm; 
+}
