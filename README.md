@@ -9,7 +9,7 @@ To set up the project and install the necessary dependencies, follow these steps
 
 ### 1) Clone the repository:
 
-**git clone git@github.com:A-Hooft/Photo_labels.git**
+`git clone git@github.com:A-Hooft/Photo_labels.git`
 
 ### 2) Navigate to the project directory:
 
