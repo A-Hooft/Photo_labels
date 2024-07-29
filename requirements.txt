@@ -1,0 +1,5 @@
+blabel
+weasyprint
+gobject
+cairocffi
+pyyaml

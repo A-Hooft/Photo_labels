@@ -1,0 +1,227 @@
+/* here for growth labels */
+
+ @page {
+    width: 210mm;
+    height: 297mm;
+}
+
+.print-area {
+    border: 0.1mm solid black; 
+    width: 52.3mm;
+    height: 20.7mm;
+    float:left;
+}
+.project_label {
+  font-family: Verdana;
+  font-weight: normal;
+  display: inline-block;
+  position: absolute;
+  right: 1mm ;
+  margin-top: 1.5mm;
+  margin-left: 2.4mm;
+  font-size: 8px;
+}
+.qrcode {
+  height: 15mm;
+  display: inline-block;
+  vertical-align: middle;
+  image-rendering: pixelated;
+  margin-top: 2.5mm;
+  margin-left: 2.5mm;
+}
+.sample_label {
+  font-family: Verdana;
+  font-size: 20px;
+  vertical-align: middle;
+  position: absolute;
+  margin-top: 6mm;
+  margin-right: 5mm;
+  margin-left: 1mm;
+}
+
+.square {
+  width: 10.4mm;
+  height: 2.5mm;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+  position: absolute;
+  bottom: 0; 
+}
+/* .black {
+  background-color: black;
+  left: 10mm;
+}
+
+.white {
+  background-color: white;
+  left: 20.4mm; 
+}
+
+.black_2 {
+  background-color: black;
+  left: 30.8mm;
+}  */
+
+
+/* here for sample labels malawi trip 2023 */
+/* @page {
+  width: 210mm;
+  height: 297mm;
+}
+
+.print-area {
+  border: 0.1mm solid black;
+  width: 41.6mm;         
+  height: 17.5mm;         
+ float:left;
+  position: relative;
+}
+.project_label {
+font-family: Verdana;
+font-weight: normal;
+display: inline-block;
+position: absolute;
+right: 1mm ;
+margin-top: 1.5mm;
+margin-left: 2.4mm;
+font-size: 10px;
+}
+.qrcode {
+height: 10mm;
+display: inline-block;
+vertical-align: middle;
+image-rendering: pixelated;
+margin-top: 2.5mm;
+margin-left: 2.5mm;
+}
+.sample_label {
+font-family: Verdana;
+font-size: 18px;
+vertical-align: middle;
+position: absolute;
+margin-top: 6mm;
+margin-right: 5mm;
+margin-left: 1mm;
+}
+.square {
+  width: 10.4mm;
+  height: 2.5mm;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+  position: absolute;
+  bottom: 0; 
+}
+
+.black {
+  background-color: black;
+  left: 5mm;
+}
+
+.white {
+  background-color: white;
+  left: 15.4mm; 
+}
+
+.black_2 {
+  background-color: black;
+  left: 25.8mm;
+} 
+
+
+/* here for fast labels malawi trip 2023 */
+  /* 
+@page {
+  width: 210mm;
+  height: 297mm;
+}
+
+.print-area {
+  border: 0.1mm solid black;
+  width: 104mm;         
+  height: 29mm;         
+  float:left;
+  position: relative;
+}
+.project_label {
+font-family: Verdana;
+font-weight: normal;
+display: inline-block;
+position: absolute;
+right: 2mm ;
+margin-top: 2.5mm;
+margin-left: 5mm;
+font-size: 18px;
+}
+.qrcode {
+height: 21mm;
+display: inline-block;
+vertical-align: middle;
+image-rendering: pixelated;
+margin-top: 3mm;
+margin-left: 5mm;
+}
+.sample_label {
+font-family: Verdana;
+font-size: 32px;
+vertical-align: middle;
+position: absolute;
+margin-top: 3mm;
+margin-right: 5mm;
+margin-left: 2.5mm;
+}
+.square {
+  width: 10.4mm;
+  height: 3mm;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.black {
+  background-color: black;
+  left: 5mm;
+}
+
+.white {
+  background-color: white;
+  left: 15.4mm;
+
+.black_2 {
+  background-color: black;
+  left: 25.8mm; 
+}
+
+.white_2 {
+  background-color: white;
+  left: 36.2mm; 
+}
+
+.black_3 {
+  background-color: black;
+  left: 46.6mm; 
+}
+
+.white_3 {
+  background-color: white;
+  left: 57.0mm; 
+}
+
+.black_4 {
+  background-color: black;
+  left: 67.4mm; 
+}
+
+.white_4 {
+  background-color: white;
+  left: 77.8mm; 
+}
+
+.black_5 {
+  background-color: black;
+  left: 88.2mm; 
+} */
+  /*
