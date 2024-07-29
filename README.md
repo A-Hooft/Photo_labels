@@ -13,13 +13,13 @@ To set up the project and install the necessary dependencies, follow these steps
 
 ### 2) Navigate to the project directory:
 
-cd Photo_labels
+`cd Photo_labels`
 
 ### 3) Install the required packages using pip:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-their may be issues with the weasyprint package, in that case consult weasyprint installation steps https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation
+You may have issues with the weasyprint package, in that case consult weasyprint installation steps https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation
 
 
 ## Configuration File
@@ -37,7 +37,7 @@ The configuration file `Config/write_labels.yaml` includes several parameters;
 - `Range`: Specimen number range (used if `sequential_labels` is true)
 - `Labels_list`: List of labels (used if `sequential_labels` is false)
 
-
+!! always check the scale bar manually with a ruler after printing, printing settings can adjust the scaling
 ## Generate labels
 
 To generate the labels, execute the following command to run the python script:
