@@ -2,7 +2,7 @@
 
 This project is designed to automate the creation of uniform labels for various purposes, and originally designed for producing labels for in photos of biolgoical speciemens. It utilizes the `blabel` library to generate PDF labels based on a given configuration file. labels can be generated based on a sequenctial numerical identifier or list. optionally an automatically rendered QRcode can be included to allow for automatic content classifcation of photos. A scale bar and 4 preset sizes are defined, but all CSS elements and labels contents are in theory customisable
 
-## Just like this!
+### Just like this!
 ![MWA2101;MalCich](https://github.com/user-attachments/assets/c43ed4aa-4b98-4ba6-b1d9-44551688328a)
 
 ## Installation
